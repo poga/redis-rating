@@ -1,0 +1,16 @@
+[package]
+name = "redis-rating"
+version = "0.1.0"
+authors = ["Poga Po <poga.po@gmail.com>"]
+build = "build.rs"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+bitflags = "0.7.0"
+libc = "0.2.0"
+time = "0.1"
+
+[build-dependencies]
+gcc = "0.3"
