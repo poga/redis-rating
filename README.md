@@ -29,7 +29,7 @@ loadmodule /path/to/modules/libredis_rating.so
 
 ## Usage
 
-#### RT.RATEPOS
+### RT.RATEPOS
 
 ```
 RT.RATEPOS <key> [<count>]
@@ -37,11 +37,11 @@ RT.RATEPOS <key> [<count>]
 
 Add `count` positive rating to `key`. `count` is default to 1.
 
-### Response
+#### Response
 
 The command will respond with an array of integers. The first integer is the total number of positive votes. The second integer is the total number of votes.
 
-#### RT.RATENEG
+### RT.RATENEG
 
 ```
 RT.RATEPOS <key> [<count>]
@@ -49,11 +49,11 @@ RT.RATEPOS <key> [<count>]
 
 Add `count` negative rating to `key`. `count` is default to 1.
 
-### Response
+#### Response
 
 The command will respond with an array of integers. The first integer is the total number of positive votes. The second integer is the total number of votes.
 
-#### RT.GET
+### RT.GET
 
 ```
 RT.RATEPOS <key>
@@ -61,7 +61,7 @@ RT.RATEPOS <key>
 
 Estimate the **Real** score of the given key. `Score = Use Lower bound of Wilson score confidence interval for a Bernoulli parameter`
 
-### Response
+#### Response
 
 Returns a double, which is the estimated score of key.
 
