@@ -69,7 +69,7 @@ Returns a double, which is the estimated score of key.
 
 This module is based on brandur's [redis-cell](https://github.com/brandur/redis-cell).
 
-The following files is copied from brandur's project. Therefore preserve the original [license](https://github.com/brandur/redis-cell/blob/master/LICENSE)
+The following files is copied from brandur's project with minor modification. Therefore preserve the original [license](https://github.com/brandur/redis-cell/blob/master/LICENSE)
 
 ```
 The MIT License, Copyright (c) 2016 Brandur and contributors
