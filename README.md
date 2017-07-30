@@ -2,7 +2,7 @@
 
 A Redis module that helps you calculate the real rating from positive/negative rating feedback.
 
-The algorithm used is described at [how not to sort by average rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html).
+The blog post [how not to sort by average rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html) described the algorithm we use.
 
 ## Install
 
@@ -76,6 +76,7 @@ The MIT License, Copyright (c) 2016 Brandur and contributors
 * `src/redis/*`
 * `src/error.rs`
 * `src/marcos.rs`
+* `build.rs`
 ```
 
-Everything else is licensed under The MIT License.
+Everything else is licensed under The MIT License (Chieh Po).
