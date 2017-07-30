@@ -59,11 +59,11 @@ The command will respond with an array of integers. The first integer is the tot
 RT.RATEPOS <key>
 ```
 
-Estimate the **Real** score of the given key. `Score = Use Lower bound of Wilson score confidence interval for a Bernoulli parameter`
+Estimate the **Real** rating of the given key. `Rating = Lower bound of Wilson score confidence interval for a Bernoulli parameter`
 
 #### Response
 
-Returns a double, which is the estimated score of key.
+Returns a double, which is the estimated rating of the key.
 
 ## License
 
