@@ -1,6 +1,6 @@
 # redis-rating
 
-A Redis module that helps you calculate the real rating from positive/negative rating feedback.
+A Redis module that helps you calculate the real rating from positive/negative rating feedbacks.
 
 The blog post [how not to sort by average rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html) described the algorithm we use.
 
